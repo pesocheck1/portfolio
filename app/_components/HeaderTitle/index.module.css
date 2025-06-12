@@ -1,0 +1,51 @@
+.title {
+  position: absolute;
+  top: 30px; /* фиксируем отступ сверху */
+  left: 50%;
+  transform: translateX(-50%);
+  color: #585039;
+  font-size: clamp(1.5rem, 4vw, 2.5rem); /* шрифт адаптируется */
+  text-shadow: 0 0 4px rgba(72, 71, 71, 0.6);
+  max-width: 90vw;
+  font-family: glacialbold;
+  letter-spacing: 0.05em;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap; /* чтобы не переносилось */
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Дополнительно для маленьких экранов */
+@media (max-width: 400px) {
+  .title {
+    font-size: 1.2rem;
+    white-space: normal; /* разрешаем перенос */
+    padding: 0 10px;
+  }
+}
+
+/* .title {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #585039;
+  font-size: 2.5rem;
+  text-shadow: 0 0 4px rgba(72, 71, 71, 0.6);
+  width: 150%;
+  font-family: glacialbold;
+  letter-spacing: 0.05em;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+} */

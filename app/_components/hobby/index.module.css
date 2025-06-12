@@ -1,0 +1,35 @@
+.container {
+  max-width: 650px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.heading {
+  font-family: glacialbold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.profileSection {
+  justify-content: space-between;
+  display: flex;
+  align-items: top;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.profileImage {
+  border-radius: 8px;
+  object-fit: contain;
+  background-color: #fffaf4;
+}
+
+.profileText {
+  text-align: right;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.profileText p {
+  margin-top: 0.5rem;
+}

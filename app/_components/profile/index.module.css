@@ -1,0 +1,84 @@
+.container {
+  max-width: 650px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.heading {
+  font-family: glacialbold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.profileSection {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  /* gap: 3rem; */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+/* .profileImage {
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: #fdf6ec;
+} */
+
+.profileImage {
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: #fdf6ec;
+  width: 200px;
+  height: 200px;
+}
+
+.profileText p {
+  margin: 0.5rem 0;
+  font-family: glacial;
+}
+
+.hobbySection {
+  margin-top: 2rem;
+}
+
+.subHeading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* .hobbyList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+} */
+
+.hobbyList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.hobbyItem {
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+}
+
+.hobbyImage {
+  border-radius: 8px;
+}
+
+.hobbyText {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 650px) {
+  .profileSection {
+    flex-direction: column;
+    text-align: center;
+  }
+}

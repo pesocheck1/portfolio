@@ -1,0 +1,24 @@
+.navLinks ul {
+  list-style: none;
+  margin: 85px auto 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  /* margin: 0 auto; */
+  padding: 1rem;
+}
+
+.navLinks a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #332f21;
+  transition: color 0.2s;
+  font-family: glacialbold;
+}
+
+.navLinks a:hover {
+  color: #9a9894;
+}
