@@ -25,6 +25,7 @@ export default function WorkPage() {
           <p>TypeScriptを使用したポートフォリオサイト</p>
           <Link
             href="https://github.com/pesocheck1/project1"
+            target="_blank"
             className={styles.link}
           >
             GitHub リポジトリはこちら
@@ -36,6 +37,7 @@ export default function WorkPage() {
           <p>HTMLを使用したシンプルなウェブサイト</p>
           <Link
             href="https://github.com/pesocheck1/cakeshop"
+            target="_blank"
             className={styles.link}
           >
             GitHub リポジトリはこちら
