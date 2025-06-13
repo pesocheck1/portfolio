@@ -4,6 +4,13 @@
   padding: 1rem;
 }
 
+.imageWrapper {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  display: inline-block;
+}
+
 .heading {
   font-size: 2rem;
   margin-bottom: 2rem;

@@ -11,6 +11,7 @@ import StrengthsPage from "@/app/_components/strengths";
 import HobbyPage from "@/app/_components/hobby";
 import Contact from "@/app/_components/contact";
 import ScrollToTopButton from "./_components/ScrollButton";
+import { getIcons } from "@/app/_libs/microcms";
 
 export default function HomePage() {
   return (
