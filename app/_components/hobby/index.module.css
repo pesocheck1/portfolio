@@ -36,22 +36,30 @@
 
 @media (max-width: 650px) {
   .profileSection {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
     align-items: center;
+    /* margin-top: 0; */
   }
 
   .profileText h2 {
     text-align: center;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .profileText {
     text-align: left;
     margin-left: 0;
+    margin-top: 0;
   }
 
   .heading {
     text-align: center;
+    margin-bottom: 0;
+  }
+
+  .profileImage {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
   }
 }
