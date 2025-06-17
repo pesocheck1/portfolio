@@ -1,4 +1,3 @@
-// app/_components/HeaderTitle.tsx
 import Link from "next/link";
 import styles from "./index.module.css";
 

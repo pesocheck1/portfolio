@@ -1,17 +1,15 @@
 .title {
-  position: absolute;
-  top: 30px;
-  left: 50%;
-  transform: translateX(-50%);
   color: #585039;
   font-size: clamp(1.5rem, 4vw, 2.5rem); /* шрифт адаптируется */
   text-shadow: 0 0 4px rgba(72, 71, 71, 0.6);
-  max-width: 90vw;
+  max-width: 80vw;
   font-family: glacialbold;
   letter-spacing: 0.05em;
   margin: 0 auto;
   text-align: center;
-  white-space: nowrap; /* чтобы не переносилось */
+  white-space: normal; /* ✅ разрешить перенос */
+  word-break: break-word; /* ✅ переносить по словам */
+  line-height: 1.3; /* ✅ улучшить читаемость */
 }
 
 .link {
