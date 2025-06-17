@@ -17,13 +17,8 @@
   font-family: glacial;
 }
 
-.imageSection {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-.image {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
+@media (max-width: 650px) {
+  .heading {
+    text-align: center;
+  }
 }

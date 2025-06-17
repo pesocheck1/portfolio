@@ -35,3 +35,9 @@
   text-decoration: none;
   font-family: glacial;
 }
+
+@media (max-width: 650px) {
+  .heading {
+    text-align: center;
+  }
+}

@@ -2,18 +2,19 @@
 
 import React from "react";
 import styles from "./index.module.css";
+import { FaArrowUp } from "react-icons/fa";
 
 const ScrollToTopButton: React.FC = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // плавная прокрутка
+      behavior: "smooth",
     });
   };
 
   return (
     <button className={styles.button} onClick={scrollToTop}>
-      ↑ 上へ戻る
+      <FaArrowUp size={24} />
     </button>
   );
 };

@@ -37,3 +37,9 @@
   line-height: 1.6;
   font-family: glacial;
 }
+
+@media (max-width: 650px) {
+  .heading {
+    text-align: center;
+  }
+}

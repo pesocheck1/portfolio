@@ -25,3 +25,9 @@
 .note {
   font-size: 0.9rem;
 }
+
+@media (max-width: 650px) {
+  .heading {
+    text-align: center;
+  }
+}

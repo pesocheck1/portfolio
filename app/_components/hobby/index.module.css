@@ -50,4 +50,8 @@
     text-align: left;
     margin-left: 0;
   }
+
+  .heading {
+    text-align: center;
+  }
 }
