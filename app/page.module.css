@@ -20,6 +20,12 @@
   margin-top: 0;
 }
 
+@media (max-width: 650px) {
+  .hero {
+    margin-top: 4rem;
+  }
+}
+
 /* .title {
   position: absolute;
   top: 0%;

@@ -33,3 +33,21 @@
 .profileText p {
   margin-top: 0.5rem;
 }
+
+@media (max-width: 650px) {
+  .profileSection {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .profileText h2 {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .profileText {
+    text-align: left;
+    margin-left: 0;
+  }
+}
