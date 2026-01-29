@@ -28,12 +28,23 @@
   padding-bottom: 1rem;
   border-bottom: 1px solid #ddd;
 }
+.workItemlast {
+  margin-bottom: 1rem;
+}
 
 .link {
   font-size: 0.9rem;
   color: #434134;
   text-decoration: none;
   font-family: glacial;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.screenshot {
+  width: 100%;
+  height: auto;
+  margin-top: 16px;
 }
 
 @media (max-width: 650px) {
